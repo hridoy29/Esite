@@ -25,7 +25,18 @@ namespace Esite
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
-                      "~/Content/site.css"));
+                      "~/Content/site.css",
+                       
+                       
+                      "~/css/jquery.smartmenus.bootstrap.css",
+                      "~/css/jquery.simpleLens.css",
+                      "~/css/slick.css",
+                      "~/css/nouislider.css",
+                      "~/css/theme-color/default-theme.css",
+                      "~/css/sequence-theme.modern-slide-in.css",
+                      "~/css/style.css"
+
+                      ));
         }
     }
 }
